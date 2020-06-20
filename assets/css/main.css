@@ -60,6 +60,11 @@ body {
 ol, ul {
   list-style: none; }
 
+  img {
+    max-width: 100%;
+}
+
+
 blockquote, q {
   quotes: none; }
   blockquote:before, blockquote:after, q:before, q:after {
@@ -2823,3 +2828,15 @@ body.is-menu-visible #menu {
   transform: translateX(0);
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
+
+  /* BLOG */
+
+  .imagen-blog {
+    max-width: 500px;
+    padding-top: 3rem;
+  }
+
+  .content {
+   margin: 3rem;
+
+  }
